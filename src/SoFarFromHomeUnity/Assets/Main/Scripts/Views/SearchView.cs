@@ -206,7 +206,7 @@ public class SearchView : AbstractView
 
                 float shakeAmount = Mathf.Clamp01(ExtensionMethods.Map((1-gapExplorer.GetHandInGapPos().y), 0f, handPosAtGrabY, 0f, 1f )) * Time.deltaTime;
                 //Debug.Log("handPosAtGrabY: " + handPosAtGrabY.ToString() + ", 1-GetHandInGapPos.y: " + (1-gapExplorer.GetHandInGapPos().y).ToString());
-                Debug.Log(shakeAmount);
+                // Debug.Log(shakeAmount);
 
                 newCamPos.x += grabMaxShakeAmount * UnityEngine.Random.Range(-1f, 1f) * shakeAmount;
                 newCamPos.z += grabMaxShakeAmount * UnityEngine.Random.Range(-1f, 1f) * shakeAmount;

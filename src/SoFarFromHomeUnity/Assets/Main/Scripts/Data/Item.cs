@@ -20,7 +20,7 @@ public class Item : ScriptableObject
 
 
     public bool CanBeFound(){
-        Debug.LogFormat("unlocked={0}",unlocked);
+        // Debug.LogFormat("unlocked={0}",unlocked);
         return unlocked>=unlockedRequired && !hasBeenFound;
     }
 
