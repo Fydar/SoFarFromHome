@@ -96,8 +96,6 @@ public class SofaView : AbstractView
         {
             if (DialogManager.CurrentMessage != introDialogs[0] && DialogManager.CurrentMessage != introDialogs[1])
             {
-                Debug.Log("is this working");
-
                 if (!lockbox)
                 {
                     lockbox = hit.collider.GetComponent<Lockbox>();
