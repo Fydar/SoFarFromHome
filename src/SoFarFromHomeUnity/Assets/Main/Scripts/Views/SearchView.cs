@@ -10,7 +10,7 @@ public class SearchView : AbstractView
 
     [SerializeField] Camera cam;
 
-    [SerializeField] private Cinemachine.CinemachineBrain cinemachineBrain;
+    [SerializeField] private Unity.Cinemachine.CinemachineBrain cinemachineBrain;
 
     [SerializeField] float gapPanSpeedMod = 0.25f, gapInOutSpeedMod = 0.25f;
 
@@ -32,7 +32,7 @@ public class SearchView : AbstractView
 
     [SerializeField] Vector2 mouseMovementRummageSoundThreshold = Vector3.one;
 
-    [SerializeField] Cinemachine.CinemachineImpulseSource wobble;
+    [SerializeField] Unity.Cinemachine.CinemachineImpulseSource wobble;
 
     [SerializeField] Dialog[] introDialogs;
 

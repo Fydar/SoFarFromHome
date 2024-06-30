@@ -16,9 +16,9 @@ public class SofaView : AbstractView
     private GameObject creaseIndicator;
 
     [SerializeField]
-    private Cinemachine.CinemachineVirtualCamera introCam;
+    private Unity.Cinemachine.CinemachineVirtualCamera introCam;
 
-    [SerializeField] private Cinemachine.CinemachineBrain cinemachineBrain;
+    [SerializeField] private Unity.Cinemachine.CinemachineBrain cinemachineBrain;
 
     [SerializeField] DialogManager dialogManager;
 
