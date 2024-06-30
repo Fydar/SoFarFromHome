@@ -28,3 +28,4 @@ MonoBehaviour:
   PlaySound: {fileID: 0}
   DisplayObject: {fileID: 0}
   Enqueues: {fileID: 0}
+  FadeToBlack: 0

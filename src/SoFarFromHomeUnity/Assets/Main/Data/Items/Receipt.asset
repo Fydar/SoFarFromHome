@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Receipt
   m_EditorClassIdentifier: 
   dialog: {fileID: 11400000, guid: 03ba68d7f685ef94cbf8ebb5d5455c94, type: 2}
+  unlockedRequired: 0
   hasBeenFound: 0

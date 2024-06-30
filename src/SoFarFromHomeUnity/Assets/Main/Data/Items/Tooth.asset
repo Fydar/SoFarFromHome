@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Tooth
   m_EditorClassIdentifier: 
   dialog: {fileID: 11400000, guid: ed90685cfefb2fb4d9820fd362ef775c, type: 2}
+  unlockedRequired: 0
   hasBeenFound: 1

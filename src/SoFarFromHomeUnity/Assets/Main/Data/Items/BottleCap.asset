@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: BottleCap
   m_EditorClassIdentifier: 
   dialog: {fileID: 11400000, guid: 2b14d3c079117ae428913c5e690c4c53, type: 2}
+  unlockedRequired: 0
   hasBeenFound: 0
