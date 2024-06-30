@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: HalfBiscuit
   m_EditorClassIdentifier: 
   dialog: {fileID: 11400000, guid: 1b1ca77844de76c48a9861b044c03e8e, type: 2}
+  unlockedRequired: 0
   hasBeenFound: 0

@@ -24,6 +24,8 @@ MonoBehaviour:
   Delay: 0.25
   Duration: 1
   ClickToContinue: 1
+  AutoContinue: 1
   PlaySound: {fileID: 0}
   DisplayObject: {fileID: 0}
   Enqueues: {fileID: 11400000, guid: 33bb2be77c4b17c4fb81cb7da5bce7a6, type: 2}
+  FadeToBlack: 0

@@ -20,6 +20,8 @@ MonoBehaviour:
   Delay: 0.2
   Duration: 1
   ClickToContinue: 1
+  AutoContinue: 1
   PlaySound: {fileID: 0}
   DisplayObject: {fileID: 0}
   Enqueues: {fileID: 11400000, guid: 64deb11ac79ccf543aa3a34717458533, type: 2}
+  FadeToBlack: 0
