@@ -24,7 +24,7 @@ public class Lockbox : MonoBehaviour
 	private bool canOpen;
 	public bool IsOpening;
 
-	[SerializeField] Cinemachine.CinemachineVirtualCamera _camera;
+	[SerializeField] Unity.Cinemachine.CinemachineVirtualCamera _camera;
 
 	private void Start ()
 	{

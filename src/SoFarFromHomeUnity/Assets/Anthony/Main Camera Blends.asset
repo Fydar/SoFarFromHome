@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36baaa8bdcb9d8b49b9199833965d2c3, type: 3}
   m_Name: Main Camera Blends
   m_EditorClassIdentifier: 
-  m_CustomBlends:
-  - m_From: Intro
-    m_To: Selector
-    m_Blend:
-      m_Style: 1
-      m_Time: 4
-      m_CustomCurve:
+  CustomBlends:
+  - From: Intro
+    To: Selector
+    Blend:
+      Style: 1
+      Time: 4
+      CustomCurve:
         serializedVersion: 2
         m_Curve: []
         m_PreInfinity: 0

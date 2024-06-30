@@ -11,7 +11,7 @@ public class Gap : MonoBehaviour
 
     [SerializeField] GameObject gapIndicator;
 
-    [SerializeField] Cinemachine.CinemachineVirtualCamera _camera;
+    [SerializeField] Unity.Cinemachine.CinemachineVirtualCamera _camera;
 
     [SerializeField] GameObject targetPosition;
 
